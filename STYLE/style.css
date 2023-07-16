@@ -7,7 +7,7 @@
 .prymary{
     padding: 8px 12px ;
     border: none;
-    background-color: rgba(255, 108, 34, 0.827);
+    background-color: #FF900E;
     color: white;
     border-radius: 5px;
     margin:10px 0px;
@@ -81,6 +81,10 @@
 }
 
 /* feature section  */
+main{
+    max-width: 1440px;
+    margin: 20px auto;
+}
 
 .feature-section{
     margin: 20px 100px;
@@ -103,15 +107,23 @@
 .feature-content{
     width: 70%;
     margin: auto;
+    padding: 20px;
 }
 .feature-title{
     font-size: 2rem;
+    padding-top: 10px;
 }
 .span-item-1{
     color: var(--dark-03, #727272);
+    font-weight: 400;
 }
 .span-item-2{
     color: #FF900E;
+}
+.feature-paragraph{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: var(--dark-03, #727272);
 }
 /* responsive desine */
 
@@ -137,7 +149,14 @@
     }
     .navigation-title{
         font-size: 1.5rem;
-
+    }
+    .feature-section{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .feature-content{
+        padding: 5px;
+        width: 98%;
     }
 }
 
@@ -160,6 +179,14 @@
         font-size: 3rem;
         padding: 10px 0px;
     }
+    .feature-section{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .feature-content{
+        padding: 5px;
+        width: 98%;
+    }
 }
 /* for tab  */
 @media screen and (min-width:576px) and (max-width:950px) {
@@ -175,5 +202,8 @@
     }
     .navigation a{
         padding:10px;
+    }
+    .feature-section{
+        margin: 20px;
     }
 }
