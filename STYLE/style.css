@@ -79,6 +79,40 @@
     color: #727272;
     padding: 10px 0px;
 }
+
+/* feature section  */
+
+.feature-section{
+    margin: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 5%;
+}
+.feature-photo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.feature-image{
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+.feature-content{
+    width: 70%;
+    margin: auto;
+}
+.feature-title{
+    font-size: 2rem;
+}
+.span-item-1{
+    color: var(--dark-03, #727272);
+}
+.span-item-2{
+    color: #FF900E;
+}
 /* responsive desine */
 
 /* for mini mobail */
