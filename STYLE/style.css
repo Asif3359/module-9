@@ -151,12 +151,12 @@ main{
         font-size: 1.5rem;
     }
     .feature-section{
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin: 10px;
     }
     .feature-content{
         padding: 5px;
-        width: 98%;
+        width: 100%;
     }
 }
 
@@ -180,12 +180,12 @@ main{
         padding: 10px 0px;
     }
     .feature-section{
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin: 10px;
     }
     .feature-content{
         padding: 5px;
-        width: 98%;
+        width: 100%;
     }
 }
 /* for tab  */
@@ -205,5 +205,10 @@ main{
     }
     .feature-section{
         margin: 20px;
+        flex-direction: column-reverse;
+    }
+    .feature-content{
+        padding: 5px;
+        width: 100%;
     }
 }
